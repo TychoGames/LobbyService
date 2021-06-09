@@ -1,0 +1,1 @@
+dotnet ef migrations add %1 -c AppDbContext -o ../TychoGames.LobbyService.EntityFrameworkCore/Migrations/ -p ../TychoGames.LobbyService.EntityFrameworkCore/TychoGames.LobbyService.EntityFrameworkCore.csproj

@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TychoGames.LobbyService.Web", "TychoGames.LobbyService.Web\TychoGames.LobbyService.Web.csproj", "{3D7A977D-640B-48C9-8B07-F3D0A34B8E5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TychoGames.LobbyService.EntityFrameworkCore", "TychoGames.LobbyService.EntityFrameworkCore\TychoGames.LobbyService.EntityFrameworkCore.csproj", "{2DC998C8-F70E-4907-A6AA-48973C6407F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TychoGames.LobbyService.Core", "TychoGames.LobbyService.Core\TychoGames.LobbyService.Core.csproj", "{EB439FB0-C517-4A54-BC3B-5B06906AC2D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D7A977D-640B-48C9-8B07-F3D0A34B8E5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D7A977D-640B-48C9-8B07-F3D0A34B8E5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D7A977D-640B-48C9-8B07-F3D0A34B8E5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D7A977D-640B-48C9-8B07-F3D0A34B8E5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DC998C8-F70E-4907-A6AA-48973C6407F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DC998C8-F70E-4907-A6AA-48973C6407F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DC998C8-F70E-4907-A6AA-48973C6407F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DC998C8-F70E-4907-A6AA-48973C6407F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB439FB0-C517-4A54-BC3B-5B06906AC2D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB439FB0-C517-4A54-BC3B-5B06906AC2D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB439FB0-C517-4A54-BC3B-5B06906AC2D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB439FB0-C517-4A54-BC3B-5B06906AC2D1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

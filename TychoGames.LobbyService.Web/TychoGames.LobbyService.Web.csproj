@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+      <UserSecretsId>affdda8e-a2a7-4d31-8905-34b8c718e66a</UserSecretsId>
+  </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.7">
+          <PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\TychoGames.LobbyService.Core\TychoGames.LobbyService.Core.csproj" />
+      <ProjectReference Include="..\TychoGames.LobbyService.EntityFrameworkCore\TychoGames.LobbyService.EntityFrameworkCore.csproj" />
+    </ItemGroup>
+
+</Project>
