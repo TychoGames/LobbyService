@@ -9,6 +9,7 @@ namespace TychoGames.LobbyService.Core.Entities
         public string Name { get; set; }
         public int MaxPlayers { get; set; }
         public Guid Game { get; set; }
+        public Guid Leader { get; set; }
         public List<Player> Players { get; set; }
         public DateTime CreatedDateTime { get; set; }
     }

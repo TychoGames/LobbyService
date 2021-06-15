@@ -12,6 +12,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using TychoGames.LobbyService.EntityFrameworkCore;
+using TychoGames.LobbyService.Web.Automapper;
 
 namespace TychoGames.LobbyService.Web
 {
@@ -34,6 +35,8 @@ namespace TychoGames.LobbyService.Web
             });
 
             services.AddEfCore(Configuration.GetValue<string>("connectionString"));
+
+            services.AddAutoMapper(typeof(LobbyMapping));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
